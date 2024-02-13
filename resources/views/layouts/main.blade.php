@@ -32,7 +32,7 @@
             </button>
 
         </div>
-        <a href="{{route('dashboard')}}" class="text-xl font-bold">NEProject</a>
+        <a href="{{route('dashboard')}}" class="text-xl font-bold">LearnHub</a>
         @guest
         <div class="flex flex-row items-center gap-3">
             <a href="{{route('user.login')}}">login</a>
